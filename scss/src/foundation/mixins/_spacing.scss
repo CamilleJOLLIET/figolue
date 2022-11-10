@@ -1,0 +1,35 @@
+@mixin margin-top($scale) {
+  margin-top: map-get($spacing, $scale);
+}
+
+@mixin margin-right($scale) {
+  margin-right: map-get($spacing, $scale);
+}
+
+@mixin margin-bottom($scale) {
+  margin-bottom: map-get($spacing, $scale);
+}
+
+@mixin margin-left($scale) {
+  margin-left: map-get($spacing, $scale);
+}
+
+@mixin padding-top($scale) {
+  padding-top: map-get($spacing, $scale);
+}
+
+@mixin padding-right($scale) {
+  padding-right: map-get($spacing, $scale);
+}
+
+@mixin padding-bottom($scale) {
+  padding-bottom: map-get($spacing, $scale);
+}
+
+@mixin padding-left($scale) {
+  padding-left: map-get($spacing, $scale);
+}
+
+body {
+  @include margin-top('xxxl');
+}

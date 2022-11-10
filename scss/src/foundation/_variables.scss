@@ -1,0 +1,84 @@
+/* COLORS */
+
+/* Brand Colors */
+$brand-110: #10527F;
+$brand: #0E72B5;
+$brand-50: #E2F3FE;
+
+$primary-110: #111A26;
+$primary: #273344;
+$primary-70: #4F5E72; // Pas présent dans les palettes mais demandée sur le bouton primary-hover
+$primary-50: #A6B1BF;
+$primary-20: #EDF1F7;
+
+$premium-110: #FDBC3C; // Pas présent dans les palettes mais demandée sur le bouton premium
+$premium: #F5C870;
+$premium-50: #FFD687;
+$premium-20: #FFF4DF;
+
+/* Neutral Colors */
+$white: #FFF;
+$grey: #C4C4C4;
+$transparent: transparent;
+
+/* Utility Colors */
+$success: #1D8145;
+$success-70: #4F8A10;
+$warning: #D0021B;
+$warning-50: #FFC5CC;
+
+/* Theme Colors */
+$breaking-news: #E32C00;
+$om: #5AC0D4;
+$carnet: #E26063;
+$ads: #EFDBDF;
+$rabais-choc: #E22C16;
+
+/* 
+* TYPOGRAPHY
+*
+* 1) Utilisée pour le contenu et le texte du body
+* 2) Utilisé pour le titrage d'une page ou d'un component
+*/
+
+/* Font families */
+$lato: 'lato', sans-serif; /* 1 */
+$lato-bold: 'lato-bold', sans-serif; /* 2 */
+
+/* Font sizes */
+$fs-xs: 1.2rem;
+$fs-s: 1.4rem;
+
+/* Heading font sizes */
+$h-1: 3.9rem;
+$h-2: 2.5rem;
+
+/* Font weights */
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/* BREAKPOINTS */
+$breakpoints: (
+  sm: 36rem,
+  md: 76.8rem,
+  lg: 102.4rem,
+  xl: 128rem,
+);
+
+/* SPACING */
+$spacing: (
+  xxxs: 0.4rem,
+  xxs: 0.8rem,
+  xs: 1.2rem,
+  sm: 1.6rem,
+  md: 2rem,
+  lg: 2.4rem,
+  xl: 2.8rem,
+  xxl: 3.2rem,
+  xxxl: 3.6rem,
+) !default;
