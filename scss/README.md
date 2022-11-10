@@ -1,2 +1,0 @@
-# figolue
-Design System POC
