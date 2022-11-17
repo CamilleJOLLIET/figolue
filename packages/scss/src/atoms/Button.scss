@@ -2,4 +2,8 @@
 
 .fig-button__container {
   display: flex;
+  background: $btn-premium-bg;
+  color: $btn-premium-color;
+  border: none;
+  // padding: map-get($spacing, 'xxxs');
 }

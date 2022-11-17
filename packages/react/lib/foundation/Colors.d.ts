@@ -1,0 +1,27 @@
+declare const _default: Readonly<{
+    brand110: string;
+    brand: string;
+    brand50: string;
+    primary110: string;
+    primary: string;
+    primary70: string;
+    primary50: string;
+    primary20: string;
+    premium110: string;
+    premium: string;
+    premium50: string;
+    premium20: string;
+    white: string;
+    grey: string;
+    transparent: string;
+    success: string;
+    success70: string;
+    warning: string;
+    warning50: string;
+    breakingNews: string;
+    om: string;
+    carnet: string;
+    ads: string;
+    rabaisChoc: string;
+}>;
+export default _default;

@@ -1,0 +1,46 @@
+@import 'foundation/router';
+
+$sides: top, right, bottom, left;
+
+@each $size, $value in $spacing {
+  .fig-width-#{$size} {
+    width: $value;
+  }
+
+  .fig-height-#{$size} {
+    height: $value;
+  }
+
+  .fig-padding-#{$size} {
+    padding: $value;
+  }
+
+  .fig-margin-#{$size} {
+    margin: $value;
+  }
+
+  .fig-padding-x-#{$size} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+
+  .fig-margin-y-#{$size} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+
+  .fig-margin-y-#{$size} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+
+  @each $side in $sides {
+    .fig-margin-#{$side}-#{$size} {
+      margin-#{$side}: $value;
+    }
+
+    .fig-padding-#{$side}-#{size} {
+      padding-#{$side}: $value;
+    }
+  }
+}
