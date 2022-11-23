@@ -21,11 +21,19 @@ export default {
   }
 }
 
-export const Primary = () => <Button label="Abonne toi wesh !" paddingX="xs" paddingY="xxxs" theme="primary" disabled={false} />;
 
 const Template = (args: JSX.IntrinsicAttributes & ButtonProps ) => <Button {...args} />;
+export const Primary = Template.bind({});
 export const ButtonWithControls = Template.bind({});
 ButtonWithControls.args = {
+  label: 'Abonne toi wesh !',
+  paddingX: 'xs',
+  paddingY: 'xxxs',
+  theme: 'primary',
+  disabled: false
+};
+
+Primary.args = {
   label: 'Abonne toi wesh !',
   paddingX: 'xs',
   paddingY: 'xxxs',
