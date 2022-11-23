@@ -27,7 +27,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "yarn build --watch",
-    "start-storybook": "start-storybook -p 6000",
+    "start-storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006"
   },

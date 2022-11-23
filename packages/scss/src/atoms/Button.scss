@@ -14,6 +14,7 @@
   }
 
   &:disabled {
+    cursor: not-allowed;
     background: $btn-primary-bg-disabled;
     border: 1px solid $btn-primary-border-disabled;
     color: $btn-primary-color-disabled;

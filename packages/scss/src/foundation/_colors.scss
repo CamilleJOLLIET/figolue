@@ -5,7 +5,7 @@ $body-bg-color: var(--fig-body-bg-color, $white) !default;
 /* Buttons */
 $btn-primary-color: var(--fig-btn-primary-color, $white) !default;
 $btn-primary-color-hover: var(--fig-btn-primary-color-hover, $white) !default;
-$btn-primary-color-disabled: var(--fig-btn-primary-color-disabled, $primary-20) !default;
+$btn-primary-color-disabled: var(--fig-btn-primary-color-disabled, $primary-70) !default;
 $btn-primary-bg: var(--fig-btn-primary-bg, $primary) !default;
 $btn-primary-bg-hover: var(--fig-btn-primary-bg-hover, $primary-70) !default;
 $btn-primary-bg-disabled: var(--fig-btn-primary-bg-disabled, $primary-20) !default;
@@ -42,3 +42,4 @@ $btn-premium-bg-disabled: var(--fig-btn-premium-bg-disabled, $premium-20) !defau
 $btn-premium-border: var(--fig-btn-premium-border, $premium) !default;
 $btn-premium-border-hover: var(--fig-btn-premium-border-hover, $premium-110) !default;
 $btn-premium-border-disabled: var(--fig-btn-premium-border-disabled, $premium-20) !default;
+

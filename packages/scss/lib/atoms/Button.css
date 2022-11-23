@@ -39,9 +39,10 @@ body {
 }
 
 .fig-button__container:disabled {
+  cursor: not-allowed;
   background: var(--fig-btn-primary-bg-disabled, #EDF1F7);
   border: 1px solid var(--fig-btn-primary-border-disabled, #EDF1F7);
-  color: var(--fig-btn-primary-color-disabled, #EDF1F7);
+  color: var(--fig-btn-primary-color-disabled, #4F5E72);
 }
 
 .fig-button__container--secondary {

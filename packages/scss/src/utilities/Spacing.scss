@@ -34,9 +34,9 @@ $sides: top, right, bottom, left;
     margin-bottom: $value;
   }
 
-  .fig-margin-y-#{$size} {
-    margin-top: $value;
-    margin-bottom: $value;
+  .fig-margin-x-#{$size} {
+    margin-left: $value;
+    margin-right: $value;
   }
 
   @each $side in $sides {
