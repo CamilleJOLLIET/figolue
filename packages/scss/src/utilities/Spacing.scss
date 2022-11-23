@@ -24,6 +24,11 @@ $sides: top, right, bottom, left;
     padding-right: $value;
   }
 
+  .fig-padding-y-#{$size} {
+    padding-bottom: $value;
+    padding-top: $value;
+  }
+
   .fig-margin-y-#{$size} {
     margin-top: $value;
     margin-bottom: $value;

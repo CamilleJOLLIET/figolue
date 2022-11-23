@@ -1,3 +1,4 @@
 import Colors from './Colors';
 import Spacing from './Spacing';
-export { Colors, Spacing, };
+import FontSize from './FontSize';
+export { Colors, Spacing, FontSize };

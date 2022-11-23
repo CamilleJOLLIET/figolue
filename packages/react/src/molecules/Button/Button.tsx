@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spacing, Colors } from '@figolue/foundation';
 
-interface ButtonProps {
+export interface ButtonProps {
   label: String;
   paddingX?: keyof typeof Spacing;
   paddingY?: keyof typeof Spacing;

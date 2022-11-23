@@ -1,9 +1,75 @@
 @import 'foundation/router';
 
 .fig-button__container {
+  cursor: pointer;
   display: flex;
-  background: $btn-premium-bg;
-  color: $btn-premium-color;
-  border: none;
-  // padding: map-get($spacing, 'xxxs');
+  background: $btn-primary-bg;
+  border: 1px solid $btn-primary-border;
+  color: $btn-primary-color;
+
+  &:hover {
+    background: $btn-primary-bg-hover;
+    border: 1px solid $btn-primary-border-hover;
+    color: $btn-primary-color-hover;
+  }
+
+  &:disabled {
+    background: $btn-primary-bg-disabled;
+    border: 1px solid $btn-primary-border-disabled;
+    color: $btn-primary-color-disabled;
+  }
+
+  &--secondary {
+    background: $btn-secondary-bg;
+    border: 1px solid $btn-secondary-border;
+    color: $btn-secondary-color;
+
+    &:hover {
+      background: $btn-secondary-bg-hover;
+      border: 1px solid $btn-secondary-border-hover;
+      color: $btn-secondary-color-hover;
+    }
+
+    &:disabled {
+      background: $btn-secondary-bg-disabled;
+      border: 1px solid $btn-secondary-border-disabled;
+      color: $btn-secondary-color-disabled;
+    }
+  }
+
+  &--tertiary {
+    background: $btn-tertiary-bg;
+    border: 1px solid $btn-tertiary-border;
+    color: $btn-tertiary-color;
+
+    &:hover {
+      background: $btn-tertiary-bg-hover;
+      border: 1px solid $btn-tertiary-border-hover;
+      color: $btn-tertiary-color-hover;
+    }
+
+    &:disabled {
+      background: $btn-tertiary-bg-disabled;
+      border: 1px solid $btn-tertiary-border-disabled;
+      color: $btn-tertiary-color-disabled;
+    }
+  }
+
+  &--premium {
+    background: $btn-premium-bg;
+    border: 1px solid $btn-premium-border;
+    color: $btn-premium-color;
+
+    &:hover {
+      background: $btn-premium-bg-hover;
+      border: 1px solid $btn-premium-border-hover;
+      color: $btn-premium-color-hover;
+    }
+
+    &:disabled {
+      background: $btn-premium-bg-disabled;
+      border: 1px solid $btn-premium-border-disabled;
+      color: $btn-premium-color-disabled;
+    }
+  }
 }

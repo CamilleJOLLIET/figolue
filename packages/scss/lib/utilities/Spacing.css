@@ -45,6 +45,11 @@ body {
   padding-right: 0.4rem;
 }
 
+.fig-padding-y-xxxs {
+  padding-bottom: 0.4rem;
+  padding-top: 0.4rem;
+}
+
 .fig-margin-y-xxxs {
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
@@ -106,6 +111,11 @@ body {
 .fig-padding-x-xxs {
   padding-left: 0.8rem;
   padding-right: 0.8rem;
+}
+
+.fig-padding-y-xxs {
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
 }
 
 .fig-margin-y-xxs {
@@ -171,6 +181,11 @@ body {
   padding-right: 1.2rem;
 }
 
+.fig-padding-y-xs {
+  padding-bottom: 1.2rem;
+  padding-top: 1.2rem;
+}
+
 .fig-margin-y-xs {
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
@@ -232,6 +247,11 @@ body {
 .fig-padding-x-sm {
   padding-left: 1.6rem;
   padding-right: 1.6rem;
+}
+
+.fig-padding-y-sm {
+  padding-bottom: 1.6rem;
+  padding-top: 1.6rem;
 }
 
 .fig-margin-y-sm {
@@ -297,6 +317,11 @@ body {
   padding-right: 2rem;
 }
 
+.fig-padding-y-md {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
 .fig-margin-y-md {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -358,6 +383,11 @@ body {
 .fig-padding-x-lg {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
+}
+
+.fig-padding-y-lg {
+  padding-bottom: 2.4rem;
+  padding-top: 2.4rem;
 }
 
 .fig-margin-y-lg {
@@ -423,6 +453,11 @@ body {
   padding-right: 2.8rem;
 }
 
+.fig-padding-y-xl {
+  padding-bottom: 2.8rem;
+  padding-top: 2.8rem;
+}
+
 .fig-margin-y-xl {
   margin-top: 2.8rem;
   margin-bottom: 2.8rem;
@@ -486,6 +521,11 @@ body {
   padding-right: 3.2rem;
 }
 
+.fig-padding-y-xxl {
+  padding-bottom: 3.2rem;
+  padding-top: 3.2rem;
+}
+
 .fig-margin-y-xxl {
   margin-top: 3.2rem;
   margin-bottom: 3.2rem;
@@ -547,6 +587,11 @@ body {
 .fig-padding-x-xxxl {
   padding-left: 3.6rem;
   padding-right: 3.6rem;
+}
+
+.fig-padding-y-xxxl {
+  padding-bottom: 3.6rem;
+  padding-top: 3.6rem;
 }
 
 .fig-margin-y-xxxl {

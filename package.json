@@ -9,12 +9,20 @@
     "lerna": "3.22.1"
   },
   "workspaces": {
-    "packages": ["packages/*", "playgrounds/**"],
-    "nohoist": ["**/normalize-scss"]
+    "packages": [
+      "packages/*",
+      "playgrounds/**"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
   },
   "private": true,
   "scripts": {
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
   }
 }
