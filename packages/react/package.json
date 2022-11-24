@@ -35,7 +35,7 @@
     "start-storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\" --exit-zero-on-changes"
+    "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
   },
   "publishConfig": {
     "access": "public"
