@@ -19,6 +19,7 @@ jobs:
             - name: Build packages
               run: yarn build
             - name: Visual regression tests
+              uses: chromaui/action@v1
               env:
                 CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
               run: yarn test:chromatic
