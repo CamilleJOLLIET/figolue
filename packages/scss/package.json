@@ -1,6 +1,6 @@
 {
   "name": "@figolue/scss",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -30,5 +30,8 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
