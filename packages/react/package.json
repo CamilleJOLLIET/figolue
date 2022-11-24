@@ -1,6 +1,6 @@
 {
   "name": "@figolue/react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -30,6 +30,5 @@
     "start-storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006"
-  },
-  "dependencies": {}
+  }
 }
