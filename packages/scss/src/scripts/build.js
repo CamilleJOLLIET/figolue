@@ -4,8 +4,11 @@ const Sass = require('node-sass');
 
 const getComponents = () => {
   let allComponents = [];
-  const types = ['atoms', 'molecules', 'organisms', 'utilities'];
+  const types = ['atoms', 'utilities'];
   types.forEach(type => {
+    try {
+      Fs.mkdirSync(Path.resolve(`lib/${type}`));
+    } catch(e) {}
     const allFiles = Fs.readdirSync(`src/${type}`).map(file => ({
       input: `src/${type}/${file}`,
       output: `lib/${type}/${file.slice(0, -4) + 'css'}`,
