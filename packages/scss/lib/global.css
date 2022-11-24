@@ -520,5 +520,6 @@ template {
 }
 
 html {
+  font-weight: 900;
   font-size: 62.5%;
 }

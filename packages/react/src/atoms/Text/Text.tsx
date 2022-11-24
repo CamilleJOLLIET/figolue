@@ -3,6 +3,7 @@
 import React from 'react';
 import { FontSize } from '@figolue/foundation';
 
+// Text Component model
 export interface TextProps {
     size?: keyof typeof FontSize;
     children: any;

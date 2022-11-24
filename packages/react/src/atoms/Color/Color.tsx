@@ -1,6 +1,7 @@
 import React from 'react';
 import { Spacing } from '@figolue/foundation';
 
+// Color Component model
 export interface ColorProps {
     hexCode: string
     width?: keyof typeof Spacing,

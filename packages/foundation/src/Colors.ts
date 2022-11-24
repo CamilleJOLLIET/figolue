@@ -1,3 +1,4 @@
+// Color choices Type definition
 const colors = {
     brand110: 'brand-110',
     brand: 'brand',
