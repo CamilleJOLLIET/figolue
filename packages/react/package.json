@@ -8,6 +8,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.20.2",
+    "@figolue/foundation": "^0.2.2",
     "@rollup/plugin-typescript": "^9.0.2",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-controls": "^6.5.13",
