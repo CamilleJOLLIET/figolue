@@ -29,6 +29,7 @@ body {
   display: flex;
   background: var(--fig-btn-primary-bg, #273344);
   border: 1px solid var(--fig-btn-primary-border, #273344);
+  border: 3px dashed red;
   color: var(--fig-btn-primary-color, #FFF);
 }
 

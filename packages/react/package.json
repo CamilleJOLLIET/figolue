@@ -19,6 +19,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.25",
     "babel-loader": "8.1.0",
+    "chromatic": "^6.11.4",
     "react": "^18.2.0",
     "rollup": "^3.3.0",
     "rollup-plugin-typescript2": "^0.34.1",
@@ -29,7 +30,13 @@
     "dev": "yarn build --watch",
     "start-storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "chromatic": "chromatic --project-token=d39faa091b57"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "readme": "ERROR: No README data found!",
+  "_id": "@figolue/react@1.0.0",
+  "publishConfig": {
+    "access": "public"
+  }
 }
