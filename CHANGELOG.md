@@ -1,0 +1,17 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.2.2](https://github.com/CamilleJOLLIET/figolue/compare/v0.2.1...v0.2.2) (2022-11-24)
+
+
+### Bug Fixes
+
+* **docs:** commit lint ([130ab89](https://github.com/CamilleJOLLIET/figolue/commit/130ab89465ef3a3595d2542959be69e0ccfdbf91))
+* **docs:** update comments ([0a9aef0](https://github.com/CamilleJOLLIET/figolue/commit/0a9aef01b74b57a97f9aac86d7609f78963999e5))
+
+
+### Reverts
+
+* Revert "wrong" ([e6af3eb](https://github.com/CamilleJOLLIET/figolue/commit/e6af3eb4e4fd546567cb5f81cda3ee1ee0f08953))
