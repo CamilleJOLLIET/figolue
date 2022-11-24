@@ -18,9 +18,6 @@ jobs:
               run: yarn
             - name: Build packages
               run: yarn build
-    tests:
-        runs-on: ubuntu-latest
-        steps:
             - uses: actions/checkout@v2
               with:
                 fetch-depth: 0
