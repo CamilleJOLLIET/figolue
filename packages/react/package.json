@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "main": "lib/index.js",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@storybook/addon-actions": "^6.5.13",
@@ -33,5 +36,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "d09cb61b3e3ffd199027667c9bbc8420267d91fe"
 }

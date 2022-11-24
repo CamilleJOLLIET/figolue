@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "main": "lib/index.js",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "typescript": "^4.8.4"
   },
@@ -12,5 +15,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "d09cb61b3e3ffd199027667c9bbc8420267d91fe"
 }
