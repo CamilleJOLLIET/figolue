@@ -1,9 +1,11 @@
-import Ts from 'rollup-plugin-typescript2';
+import Ts from '@rollup/plugin-typescript';
 
 export default {
   input: [
     'src/index.ts',
-    'src/atoms/Button/index.ts',
+    'src/atoms/Color/index.ts',
+    'src/atoms/Text/index.ts',
+    'src/molecules/Button/index.ts',
   ],
   output: {
     dir: 'lib',

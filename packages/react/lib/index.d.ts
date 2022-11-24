@@ -1,2 +1,2 @@
-import Button from './atoms/Button';
+import Button from './molecules/Button';
 export { Button, };
