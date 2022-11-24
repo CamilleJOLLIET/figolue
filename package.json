@@ -27,7 +27,7 @@
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
     "commit": "yarn git-cz",
-    "test:chromatic": "yarn lerna test:chromatic"
+    "test:chromatic": "yarn lerna run test:chromatic"
   },
   "dependencies": {
     "yarn": "^1.22.19"
