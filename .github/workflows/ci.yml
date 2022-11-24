@@ -18,15 +18,3 @@ jobs:
               run: yarn
             - name: Build packages
               run: yarn build
-    tests:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-              with:
-                fetch-depth: 0
-            - name: Publish to Chromatic
-              uses: chromaui/action@v1
-              with:
-                workingDir: packages/react
-                # 👇 Chromatic projectToken, refer to the manage page to obtain it.
-                projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
