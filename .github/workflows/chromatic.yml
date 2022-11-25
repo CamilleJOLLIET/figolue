@@ -1,4 +1,4 @@
-name: Build CI
+name: 'Chromatic'
 on:
     push:
         branches:
@@ -7,7 +7,7 @@ on:
         branches:
             - main
 jobs:
-    builds:
+    chromatic-deployment:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
@@ -19,6 +19,7 @@ jobs:
             - name: Build packages
               run: yarn build
             - name: Publish to Chromatic
-              env:
-                CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-              run: yarn test:chromatic
+              uses: chromaui/action@v1
+              with:
+                projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+                workingDir: packages/react
