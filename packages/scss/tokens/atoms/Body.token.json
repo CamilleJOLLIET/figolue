@@ -1,0 +1,10 @@
+{
+  "body": {
+    "text": {
+      "value": "{Color.primary}"
+    },
+    "bg": {
+      "value": "{Color.white}"
+    }
+  }
+}

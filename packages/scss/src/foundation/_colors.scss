@@ -1,45 +1,45 @@
 /* Global text colors */
-$body-text-color: var(--fig-body-text-color, $primary) !default;
-$body-bg-color: var(--fig-body-bg-color, $white) !default;
+// $body-text-color: var(--fig-body-text-color, $fig-color-primary) !default;
+// $body-bg-color: var(--fig-body-bg-color, $fig-color-white) !default;
 
 /* Buttons */
-$btn-primary-color: var(--fig-btn-primary-color, $white) !default;
-$btn-primary-color-hover: var(--fig-btn-primary-color-hover, $white) !default;
-$btn-primary-color-disabled: var(--fig-btn-primary-color-disabled, $primary-70) !default;
-$btn-primary-bg: var(--fig-btn-primary-bg, $primary) !default;
-$btn-primary-bg-hover: var(--fig-btn-primary-bg-hover, $primary-70) !default;
-$btn-primary-bg-disabled: var(--fig-btn-primary-bg-disabled, $primary-20) !default;
-$btn-primary-border: var(--fig-btn-primary-border, $primary) !default;
-$btn-primary-border-hover: var(--fig-btn-primary-border-hover, $primary-50) !default;
-$btn-primary-border-disabled: var(--fig-btn-primary-border-disabled, $primary-20) !default;
+// $btn-primary-color: var(--fig-btn-primary-color, $white) !default;
+// $btn-primary-color-hover: var(--fig-btn-primary-color-hover, $white) !default;
+// $btn-primary-color-disabled: var(--fig-btn-primary-color-disabled, $primary-70) !default;
+// $btn-primary-bg: var(--fig-btn-primary-bg, $primary) !default;
+// $btn-primary-bg-hover: var(--fig-btn-primary-bg-hover, $primary-70) !default;
+// $btn-primary-bg-disabled: var(--fig-btn-primary-bg-disabled, $primary-20) !default;
+// $btn-primary-border: var(--fig-btn-primary-border, $primary) !default;
+// $btn-primary-border-hover: var(--fig-btn-primary-border-hover, $primary-70) !default;
+// $btn-primary-border-disabled: var(--fig-btn-primary-border-disabled, $primary-20) !default;
 
-$btn-secondary-color: var(--fig-btn-secondary-color, $primary) !default;
-$btn-secondary-color-hover: var(--fig-btn-secondary-color-hover, $primary) !default;
-$btn-secondary-color-disabled: var(--fig-btn-secondary-color-disabled, $primary-50) !default;
-$btn-secondary-bg: var(--fig-btn-secondary-bg, $white) !default;
-$btn-secondary-bg-hover: var(--fig-btn-secondary-bg-hover, $primary-20) !default;
-$btn-secondary-bg-disabled: var(--fig-btn-secondary-bg-disabled, $white) !default;
-$btn-secondary-border: var(--fig-btn-secondary-border, $primary) !default;
-$btn-secondary-border-hover: var(--fig-btn-secondary-border-hover, $primary) !default;
-$btn-secondary-border-disabled: var(--fig-btn-secondary-border-disabled, $primary-50) !default;
+// $btn-secondary-color: var(--fig-btn-secondary-color, $primary) !default;
+// $btn-secondary-color-hover: var(--fig-btn-secondary-color-hover, $primary) !default;
+// $btn-secondary-color-disabled: var(--fig-btn-secondary-color-disabled, $primary-50) !default;
+// $btn-secondary-bg: var(--fig-btn-secondary-bg, $white) !default;
+// $btn-secondary-bg-hover: var(--fig-btn-secondary-bg-hover, $primary-20) !default;
+// $btn-secondary-bg-disabled: var(--fig-btn-secondary-bg-disabled, $white) !default;
+// $btn-secondary-border: var(--fig-btn-secondary-border, $primary) !default;
+// $btn-secondary-border-hover: var(--fig-btn-secondary-border-hover, $primary) !default;
+// $btn-secondary-border-disabled: var(--fig-btn-secondary-border-disabled, $primary-50) !default;
 
-$btn-tertiary-color: var(--fig-btn-tertiary-color, $primary) !default;
-$btn-tertiary-color-hover: var(--fig-btn-tertiary-color-hover, $primary) !default;
-$btn-tertiary-color-disabled: var(--fig-btn-tertiary-color-disabled, $primary-50) !default;
-$btn-tertiary-bg: var(--fig-btn-tertiary-bg, $white) !default;
-$btn-tertiary-bg-hover: var(--fig-btn-tertiary-bg-hover, $primary-20) !default;
-$btn-tertiary-bg-disabled: var(--fig-btn-tertiary-bg-disabled, $white) !default;
-$btn-tertiary-border: var(--fig-btn-tertiary-border, $transparent) !default;
-$btn-tertiary-border-hover: var(--fig-btn-tertiary-border-hover, $primary) !default;
-$btn-tertiary-border-disabled: var(--fig-btn-tertiary-border-disabled, $transparent) !default;
+// $btn-tertiary-color: var(--fig-btn-tertiary-color, $primary) !default;
+// $btn-tertiary-color-hover: var(--fig-btn-tertiary-color-hover, $primary) !default;
+// $btn-tertiary-color-disabled: var(--fig-btn-tertiary-color-disabled, $primary-50) !default;
+// $btn-tertiary-bg: var(--fig-btn-tertiary-bg, $white) !default;
+// $btn-tertiary-bg-hover: var(--fig-btn-tertiary-bg-hover, $primary-20) !default;
+// $btn-tertiary-bg-disabled: var(--fig-btn-tertiary-bg-disabled, $white) !default;
+// $btn-tertiary-border: var(--fig-btn-tertiary-border, $transparent) !default;
+// $btn-tertiary-border-hover: var(--fig-btn-tertiary-border-hover, $primary) !default;
+// $btn-tertiary-border-disabled: var(--fig-btn-tertiary-border-disabled, $transparent) !default;
 
-$btn-premium-color: var(--fig-btn-premium-color, $primary) !default;
-$btn-premium-color-hover: var(--fig-btn-premium-color-hover, $primary) !default;
-$btn-premium-color-disabled: var(--fig-btn-premium-color-disabled, $primary-50) !default;
-$btn-premium-bg: var(--fig-btn-premium-bg, $premium) !default;
-$btn-premium-bg-hover: var(--fig-btn-premium-bg-hover, $premium-110) !default;
-$btn-premium-bg-disabled: var(--fig-btn-premium-bg-disabled, $premium-20) !default;
-$btn-premium-border: var(--fig-btn-premium-border, $premium) !default;
-$btn-premium-border-hover: var(--fig-btn-premium-border-hover, $premium-110) !default;
-$btn-premium-border-disabled: var(--fig-btn-premium-border-disabled, $premium-20) !default;
+// $btn-premium-color: var(--fig-btn-premium-color, $primary) !default;
+// $btn-premium-color-hover: var(--fig-btn-premium-color-hover, $primary) !default;
+// $btn-premium-color-disabled: var(--fig-btn-premium-color-disabled, $primary-50) !default;
+// $btn-premium-bg: var(--fig-btn-premium-bg, $premium) !default;
+// $btn-premium-bg-hover: var(--fig-btn-premium-bg-hover, $premium-110) !default;
+// $btn-premium-bg-disabled: var(--fig-btn-premium-bg-disabled, $premium-20) !default;
+// $btn-premium-border: var(--fig-btn-premium-border, $premium) !default;
+// $btn-premium-border-hover: var(--fig-btn-premium-border-hover, $premium-110) !default;
+// $btn-premium-border-disabled: var(--fig-btn-premium-border-disabled, $premium-20) !default;
 

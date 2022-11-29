@@ -10,6 +10,7 @@ const getComponents = () => {
       Fs.mkdirSync(Path.resolve(`lib/${type}`));
     } catch(e) {}
     const allFiles = Fs.readdirSync(`src/${type}`).map(file => ({
+      fileName: file.slice(0, -5),
       input: `src/${type}/${file}`,
       output: `lib/${type}/${file.slice(0, -4) + 'css'}`,
     }));
