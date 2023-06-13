@@ -3,7 +3,7 @@
     "primary": {
       "color": {
         "base": {
-          "value": "{Color.white}"
+          "value": "{Color.premium}"
         },
         "hover": {
           "value": "{Color.white}"
