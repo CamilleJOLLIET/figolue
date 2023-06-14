@@ -11,7 +11,8 @@
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.2",
-    "lerna": "3.22.1"
+    "lerna": "3.22.1",
+    "node": "^16.3.0"
   },
   "workspaces": {
     "packages": [
