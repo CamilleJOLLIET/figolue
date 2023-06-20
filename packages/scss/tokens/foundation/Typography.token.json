@@ -1,0 +1,51 @@
+{
+  "Typography": {
+    "family": {
+      "lato": {
+        "value": "'lato', sans-serif"
+      },
+      "latobold": {
+        "value": "'lato-bold', sans-serif"
+      }
+    },
+    "size": {
+      "xs": {
+        "value": "1.2rem"
+      },
+      "s": {
+        "value": "1.4rem"
+      }
+    },
+    "heading": {
+      "h1": {
+        "value": "3.9rem"
+      },
+      "h2": {
+        "value": "2.5rem"
+      }
+    },
+    "weight": {
+      "light": {
+        "value": "300"
+      },
+      "normal": {
+        "value": "400"
+      },
+      "medium": {
+        "value":"500"
+      },
+      "semibold": {
+        "value": "600"
+      },
+      "bold": {
+        "value": "700"
+      },
+      "extrabold": {
+        "value": "800"
+      },
+      "black": {
+        "value": "900"
+      }
+    }
+  }
+}

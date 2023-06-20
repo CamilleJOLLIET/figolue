@@ -1,0 +1,16 @@
+{
+  "Breakpoint": {
+    "sm": {
+      "value": "36rem"
+    },
+    "md": {
+      "value": "76.8rem"
+    },
+    "lg": {
+      "value": "102.4rem"
+    },
+    "xl": {
+      "value": "128rem"
+    }
+  }
+}

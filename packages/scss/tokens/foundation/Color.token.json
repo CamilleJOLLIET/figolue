@@ -1,0 +1,76 @@
+{
+  "Color": {
+    "brand-110": {
+      "value": "#10527F"
+    },
+    "brand": {
+      "value": "#0E72B5"
+    },
+    "brand-50": {
+      "value": "#E2F3FE"
+    },
+    "primary-110": {
+      "value": "#111A26"
+    },
+    "primary": {
+      "value": "#273344"
+    },
+    "primary-70": {
+      "value": "#4F5E72"
+    },
+    "primary-50": {
+      "value": "#A6B1BF"
+    },
+    "primary-20": {
+      "value": "#EDF1F7"
+    },
+    "premium-110": {
+      "value": "#FDBC3C"
+    },
+    "premium": {
+      "value": "#F5C870"
+    },
+    "premium-50": {
+      "value": "#FFD687"
+    },
+    "premium-20": {
+      "value": "#FFF4DF"
+    },
+    "white": {
+      "value": "pink"
+    },
+    "grey": {
+      "value": "#C4C4C4"
+    },
+    "transparent": {
+      "value": "transparent"
+    },
+    "success": {
+      "value": "#1D8145"
+    },
+    "success-70": {
+      "value": "#4F8A10"
+    },
+    "warning": {
+      "value": "#D0021B"
+    },
+    "warning-50": {
+      "value": "#FFC5CC"
+    },
+    "breaking-news": {
+      "value": "#E32C00"
+    },
+    "om": {
+      "value": "#5AC0D4"
+    },
+    "carnet": {
+      "value": "#E26063"
+    },
+    "ads": {
+      "value": "#EFDBDF"
+    },
+    "rabais-choc": {
+      "value": "#E22C16"
+    }
+  }
+}
