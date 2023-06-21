@@ -1,0 +1,76 @@
+{
+  "Text": {
+    "1": {
+      "normal": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.normal}",
+          "fontSize": "{Typography.sizes.s}",
+          "lineHeight": "{Typography.lh.l}"
+        }
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.bold}",
+          "fontSize": "{Typography.sizes.s}",
+          "lineHeight": "{Typography.lh.l}"
+        }
+      }
+    },
+    "2": {
+      "normal": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.normal}",
+          "fontSize": "{Typography.sizes.xs}",
+          "lineHeight": "{Typography.lh.s}"
+        }
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.bold}",
+          "fontSize": "{Typography.sizes.xs}",
+          "lineHeight": "{Typography.lh.s}"
+        }
+      }
+    },
+    "3": {
+      "normal": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.normal}",
+          "fontSize": "{Typography.sizes.xxs}",
+          "lineHeight": "{Typography.lh.s}"
+        }
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.bold}",
+          "fontSize": "{Typography.sizes.xxs}",
+          "lineHeight": "{Typography.lh.s}"
+        }
+      }
+    },
+    "4": {
+      "normal": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.normal}",
+          "fontSize": "{Typography.sizes.xxxs}",
+          "lineHeight": "{Typography.lh.xxs}"
+        }
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{Typography.families.roboto}",
+          "fontWeight": "{Typography.weights.bold}",
+          "fontSize": "{Typography.sizes.xxxs}",
+          "lineHeight": "{Typography.lh.xxxs}"
+        }
+      }
+    }
+  }
+}

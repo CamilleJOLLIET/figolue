@@ -42,25 +42,24 @@
 */
 
 /* Font families */
-$lato: $fig-typography-family-lato;
-$lato-bold: $fig-typography-family-latobold; /* 2 */
+$roboto: $fig-typography-families-roboto;
 
 /* Font sizes */
-$fs-xs: $fig-typography-size-xs;
-$fs-s: $fig-typography-size-s;
+$fs-xs: $fig-typography-sizes-xs;
+$fs-s: $fig-typography-sizes-s;
 
 /* Heading font sizes */
-$h-1: $fig-typography-heading-h1;
-$h-2: $fig-typography-heading-h2;
+$h-1: $fig-heading-1;
+$h-2: $fig-heading-2;
 
 /* Font weights */
-$fw-light: $fig-typography-weight-light;
-$fw-normal: $fig-typography-weight-normal;
-$fw-medium: $fig-typography-weight-medium;
-$fw-semibold: $fig-typography-weight-semibold;
-$fw-bold: $fig-typography-weight-bold;
-$fw-extrabold: $fig-typography-weight-extrabold;
-$fw-black: $fig-typography-weight-black;
+$fw-light: $fig-typography-weights-light;
+$fw-normal: $fig-typography-weights-normal;
+$fw-medium: $fig-typography-weights-medium;
+$fw-semibold: $fig-typography-weights-semibold;
+$fw-bold: $fig-typography-weights-bold;
+$fw-extrabold: $fig-typography-weights-extrabold;
+$fw-black: $fig-typography-weights-black;
 
 /* BREAKPOINTS */
 $breakpoints: (

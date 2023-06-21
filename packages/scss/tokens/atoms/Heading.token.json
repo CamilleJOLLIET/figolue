@@ -1,0 +1,82 @@
+{
+  "Headings": {
+    "1": {
+      "value": {
+          "fontFamily": "{Typography.families.frank}",
+          "fontWeight": "{Typography.weights.black}",
+          "fontSize": "{Typography.sizes.xxl}",
+          "lineHeight": "{Typography.lh.xxxl}"
+      },
+      "type": "typography"
+    },
+    "2": {
+      "value": {
+          "fontFamily": "{Typography.families.frank}",
+          "fontWeight": "{Typography.weights.extrabold}",
+          "fontSize": "{Typography.sizes.xl}",
+          "lineHeight": "{Typography.lh.xxl}"
+      },
+      "type": "typography"
+    },
+    "3": {
+      "medium": {
+        "value": {
+            "fontFamily": "{Typography.families.frank}",
+            "fontWeight": "{Typography.weights.medium}",
+            "fontSize": "{Typography.sizes.l}",
+            "lineHeight": "{Typography.lh.xl}"
+        },
+        "type": "typography"
+      },
+      "extrabold": {
+        "value": {
+          "fontFamily": "{Typography.families.frank}",
+          "fontWeight": "{Typography.weights.extrabold}",
+          "fontSize": "{Typography.sizes.l}",
+          "lineHeight": "{Typography.lh.xl}"
+        },
+        "type": "typography"
+      }
+    },
+    "4": {
+      "medium": {
+        "value": {
+            "fontFamily": "{Typography.families.frank}",
+            "fontWeight": "{Typography.weights.medium}",
+            "fontSize": "{Typography.sizes.m}",
+            "lineHeight": "{Typography.lh.m}"
+        },
+        "type": "typography"
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{Typography.families.frank}",
+          "fontWeight": "{Typography.weights.bold}",
+          "fontSize": "{Typography.sizes.m}",
+          "lineHeight": "{Typography.lh.m}"
+        },
+        "type": "typography"
+      }
+    },
+    "5": {
+      "medium": {
+        "value": {
+            "fontFamily": "{Typography.families.frank}",
+            "fontWeight": "{Typography.weights.medium}",
+            "fontSize": "{Typography.sizes.xs}",
+            "lineHeight": "{Typography.lh.xs}"
+        },
+        "type": "typography"
+      },
+      "extrabold": {
+        "value": {
+          "fontFamily": "{Typography.families.frank}",
+          "fontWeight": "{Typography.weights.extrabold}",
+          "fontSize": "{Typography.sizes.xs}",
+          "lineHeight": "{Typography.lh.xs}"
+        },
+        "type": "typography"
+      }
+    }
+  }
+}
