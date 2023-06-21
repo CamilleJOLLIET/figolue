@@ -7,7 +7,8 @@
           "fontWeight": "{Typography.weights.normal}",
           "fontSize": "{Typography.sizes.s}",
           "lineHeight": "{Typography.lh.l}"
-        }
+        },
+        "type": "typography"
       },
       "bold": {
         "value": {
@@ -15,7 +16,8 @@
           "fontWeight": "{Typography.weights.bold}",
           "fontSize": "{Typography.sizes.s}",
           "lineHeight": "{Typography.lh.l}"
-        }
+        },
+        "type": "typography"
       }
     },
     "2": {
@@ -25,7 +27,8 @@
           "fontWeight": "{Typography.weights.normal}",
           "fontSize": "{Typography.sizes.xs}",
           "lineHeight": "{Typography.lh.s}"
-        }
+        },
+        "type": "typography"
       },
       "bold": {
         "value": {
@@ -33,7 +36,8 @@
           "fontWeight": "{Typography.weights.bold}",
           "fontSize": "{Typography.sizes.xs}",
           "lineHeight": "{Typography.lh.s}"
-        }
+        },
+        "type": "typography"
       }
     },
     "3": {
@@ -43,7 +47,8 @@
           "fontWeight": "{Typography.weights.normal}",
           "fontSize": "{Typography.sizes.xxs}",
           "lineHeight": "{Typography.lh.s}"
-        }
+        },
+        "type": "typography"
       },
       "bold": {
         "value": {
@@ -51,7 +56,8 @@
           "fontWeight": "{Typography.weights.bold}",
           "fontSize": "{Typography.sizes.xxs}",
           "lineHeight": "{Typography.lh.s}"
-        }
+        },
+        "type": "typography"
       }
     },
     "4": {
@@ -61,7 +67,8 @@
           "fontWeight": "{Typography.weights.normal}",
           "fontSize": "{Typography.sizes.xxxs}",
           "lineHeight": "{Typography.lh.xxs}"
-        }
+        },
+        "type": "typography"
       },
       "bold": {
         "value": {
@@ -69,7 +76,8 @@
           "fontWeight": "{Typography.weights.bold}",
           "fontSize": "{Typography.sizes.xxxs}",
           "lineHeight": "{Typography.lh.xxxs}"
-        }
+        },
+        "type": "typography"
       }
     }
   }
