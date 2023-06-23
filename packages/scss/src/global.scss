@@ -1,8 +1,18 @@
-@import 'foundation/router';
-@import 'base/reset';
-@import 'base/root';
+@import 'foundation/Tokens';
+@import 'base/router';
 
 html {
+  color: $fig-body-text;
   font-weight: $fw-black;
   font-size: 62.5%; // 1rem = 10px
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fig-typography-families-frank;
+  margin: 0;
+}
+
+h1 {
+  font-size: $fig-typography-sizes-xxl;
+  font-weight: $fig-typography-weights-black;
 }

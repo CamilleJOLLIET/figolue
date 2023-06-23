@@ -7,33 +7,14 @@ module.exports = {
       buildPath: "src/foundation/",
       files: [
         {
-          destination: "_tokens.scss",
+          destination: "Tokens.scss",
           format: ["scss/varFormat"]
         },
         {
-          destination: "_classes.scss",
+          destination: "Typography.scss",
           format: ["scss/classFormat"]
         },
       ]
     }
   }
 }
-
-// function getSDConfig(level, format) {
-//   return {
-//     source: [`tokens/${level}/*.token.json`],
-//     platforms: {
-//       scss: {
-//         transformGroup: "scss",
-//         prefix: "fig",
-//         buildPath: `src/${level}/`,
-//         files: [{
-//           destination: "_tokens.scss",
-//           format: [`scss/${format}`]
-//         }]
-//       }
-//     }
-//   }
-// }
-
-// module.exports = getSDConfig;

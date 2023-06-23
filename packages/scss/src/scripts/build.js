@@ -4,7 +4,7 @@ const Sass = require('node-sass');
 
 const getComponents = () => {
   let allComponents = [];
-  const types = ['atoms', 'utilities'];
+  const types = ['atoms', 'utilities', 'foundation'];
   types.forEach(type => {
     try {
       Fs.mkdirSync(Path.resolve(`lib/${type}`));

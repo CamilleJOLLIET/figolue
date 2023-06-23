@@ -10,5 +10,6 @@ module.exports = {
     "@storybook/addon-controls",
     "@storybook/addon-a11y"
   ],
-  "framework": "@storybook/react"
+  "framework": "@storybook/react",
+  "staticDirs": ['../src/assets'],
 }
