@@ -1,2 +1,3 @@
 import Button from './molecules/Button';
-export { Button, };
+import Typography from './foundation/Typography';
+export { Button, Typography };

@@ -1,13 +1,13 @@
 import React from 'react';
-import { Heading } from '@figolue/foundation';
+import { Heading, Text } from '@figolue/foundation';
 
 export interface TypographyProps {
-    heading?: keyof typeof Heading;
+    typo?: keyof typeof Heading | keyof typeof Text;
     children: any;
 };
 
-const Typography: React.FC<TypographyProps> = ({ heading = Heading['text-1-normal'], children }) => {
-    return <p className={`fig-margin-0 fig-${heading}`}>{children}</p>
+const Typography: React.FC<TypographyProps> = ({ typo = Heading['heading-1'], children }) => {
+    return <p className={`fig-margin-0 fig-${typo}`}>{children}</p>
 }
 
 export default Typography;
