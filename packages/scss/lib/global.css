@@ -65,7 +65,7 @@ h5 {
 
 html {
   /* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   line-height: 1.15;
   /* 1. Correct the line height in all browsers. */
   -webkit-text-size-adjust: 100%;
