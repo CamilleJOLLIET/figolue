@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.7](https://github.com/CamilleJOLLIET/figolue/compare/v0.2.6...v0.2.7) (2023-06-28)
+
+
+### Bug Fixes
+
+* **style:** global font ([dc651be](https://github.com/CamilleJOLLIET/figolue/commit/dc651be13db9e2b3886cd05a9d0b47a83375ccf4))
+
+
+
+
+
 ## [0.2.6](https://github.com/CamilleJOLLIET/figolue/compare/v0.2.5...v0.2.6) (2023-06-28)
 
 
