@@ -31,6 +31,11 @@ il faut organiser la montée en version de tous les packages impactés. Et les p
 (laprovence.com, l'app, espace-user et j'en passe.
 Aujourd'hui on a un paquet avec le CSS et tout ses Design Tokens. Et un paquet du Design System en lui même donc les components React.
 
+### Packages Publishing and Versioning
+Pour publier les packages et assurer le versioning, il faudra utiliser lerna.
+Lerna permettra publier plusieurs packages d'un coup (il observe quel packages est impacté ou non par des changes) tout en synchronisant le versioning.
+A la racine, lancer `yarn lerna publish --no-private` ou `yarn version` selon les besoins.
+
 ### TODO
 Etudier les Design Tokens pour tout variabiliser.
 Configurer des compils à l'aide de Style Dictionary.
