@@ -1,8 +1,191 @@
-@import 'foundation/router';
-@import 'base/reset';
-@import 'base/root';
+@import 'foundation/Tokens';
+@import 'base/router';
 
 html {
+  color: $fig-body-text;
   font-weight: $fw-black;
   font-size: 62.5%; // 1rem = 10px
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fig-typography-families-frank;
+  margin: 0;
+}
+
+h1 {
+  font-size: $fig-typography-sizes-xxl;
+  font-weight: $fig-typography-weights-black;
+  line-height: $fig-typography-lh-xxxl;
+}
+
+h2 {
+  font-size: $fig-typography-sizes-xl;
+  font-weight: $fig-typography-weights-extrabold;
+  line-height: $fig-typography-lh-xxl;
+}
+
+h3 {
+  font-size: $fig-typography-sizes-xl;
+  font-weight: $fig-typography-weights-medium;
+  line-height: $fig-typography-lh-xl;
+}
+
+h4 {
+  font-size: $fig-typography-sizes-m;
+  font-weight: $fig-typography-weights-medium;
+  line-height: $fig-typography-lh-m;
+}
+
+h5 {
+  font-size: $fig-typography-sizes-xs;
+  font-weight: $fig-typography-weights-medium;
+  line-height: $fig-typography-lh-xs;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+html {
+	/* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
+	font-family:
+		system-ui,
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+	line-height: 1.15; /* 1. Correct the line height in all browsers. */
+	-webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
+	-moz-tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
+	tab-size: 4; /* 3 */
+}
+
+body {
+	margin: 0;
+}
+
+hr {
+	height: 0;
+	color: inherit;
+}
+
+abbr[title] {
+	text-decoration: underline dotted;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+code,
+kbd,
+samp,
+pre {
+	font-family:
+		ui-monospace,
+		SFMono-Regular,
+		Consolas,
+		'Liberation Mono',
+		Menlo,
+		monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+table {
+	text-indent: 0;
+	border-color: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+:-moz-ui-invalid {
+	box-shadow: none;
+}
+
+legend {
+	padding: 0;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+
+
+[type='search'] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+summary {
+	display: list-item;
 }

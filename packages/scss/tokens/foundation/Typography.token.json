@@ -1,50 +1,115 @@
 {
   "Typography": {
-    "family": {
-      "lato": {
-        "value": "'lato', sans-serif"
+    "families": {
+      "frank": {
+        "value": "'Frank Ruhl Libre', sans-serif",
+        "type": "fontFamily"
       },
-      "latobold": {
-        "value": "'lato-bold', sans-serif"
+      "roboto": {
+        "value": "'Roboto', sans-serif",
+        "type": "fontFamily"
       }
     },
-    "size": {
+    "sizes": {
+      "xxxs": {
+        "value": "1.2rem",
+        "type": "fontSize"
+      },
+      "xxs": {
+        "value": "1.4rem",
+        "type": "fontSize"
+      },
       "xs": {
-        "value": "1.2rem"
+        "value": "1.6rem",
+        "type": "fontSize"
       },
       "s": {
-        "value": "1.4rem"
-      }
-    },
-    "heading": {
-      "h1": {
-        "value": "3.9rem"
+        "value": "1.8rem",
+        "type": "fontSize"
       },
-      "h2": {
-        "value": "2.5rem"
+      "m": {
+        "value": "1.9rem",
+        "type": "fontSize"
+      },
+      "l": {
+        "value": "2.5rem",
+        "type": "fontSize"
+      },
+      "xl": {
+        "value": "3.1rem",
+        "type": "fontSize"
+      },
+      "xxl": {
+        "value": "3.9rem",
+        "type": "fontSize"
       }
     },
-    "weight": {
+    "weights": {
       "light": {
-        "value": "300"
+        "value": "300",
+        "type": "fontWeight"
       },
       "normal": {
-        "value": "400"
+        "value": "400",
+        "type": "fontWeight"
       },
       "medium": {
-        "value":"500"
+        "value":"500",
+        "type": "fontWeight"
       },
       "semibold": {
-        "value": "600"
+        "value": "600",
+        "type": "fontWeight"
       },
       "bold": {
-        "value": "700"
+        "value": "700",
+        "type": "fontWeight"
       },
       "extrabold": {
-        "value": "800"
+        "value": "800",
+        "type": "fontWeight"
       },
       "black": {
-        "value": "900"
+        "value": "900",
+        "type": "fontWeight"
+      }
+    },
+    "lh": {
+      "xxxs": {
+        "value": "1.7rem",
+        "type": "lineHeight"
+      },
+      "xxs": {
+        "value": "1.9rem",
+        "type": "lineHeight"
+      },
+      "xs": {
+        "value": "2rem",
+        "type": "lineHeight"
+      },
+      "s": {
+        "value": "2.2rem",
+        "type": "lineHeight"
+      },
+      "m": {
+        "value": "2.3rem",
+        "type": "lineHeight"
+      },
+      "l": {
+        "value": "2.8rem",
+        "type": "lineHeight"
+      },
+      "xl": {
+        "value": "3.1rem",
+        "type": "lineHeight"
+      },
+      "xxl": {
+        "value": "3.7rem",
+        "type": "lineHeight"
+      },
+      "xxxl": {
+        "value": "4.6rem",
+        "type": "lineHeight"
       }
     }
   }
